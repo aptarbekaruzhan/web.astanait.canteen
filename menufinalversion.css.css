@@ -1,0 +1,46 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px ;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+
+.card-text {
+    margin: 0;
+    color: #9f9f9f;
+}
+
+.product_price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.product_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.product_btn {
+    box-shadow: none ;
+    background: #e69f1c;
+    width: 150px;
+    padding: 14px 20px;
+    font-weight:900;
+    color: white;
+    border-radius: 30px;
+}
+
+.product_btn:hover {
+    background: #ad5921 ;
+    color: white;
+}
+
+.card_footer{
+    padding: 10px;
+}
